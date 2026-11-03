@@ -4,6 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "bun run build",
+    "deploy": "gh-pages -d dist"
+  },
     "dev": "tsx server.ts",
     "start": "tsx server.ts",
     "build": "vite build",
