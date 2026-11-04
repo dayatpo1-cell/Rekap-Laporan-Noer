@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     // 👇 TAMBAHKAN BARIS INI (Ganti dengan nama repository lu) 👇
-    base: 'https://dayatpo1-cell.github.io/Rekap-Laporan-Noer/', 
+    base: '/Rekap-Laporan-Noer/', 
     // 👆 ======================================================= 👆
     
     plugins: [react(), tailwindcss()],
